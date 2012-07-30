@@ -337,7 +337,7 @@ We hope you enjoy your new site. Thanks!
 http://wordpress.org/
 "), $blog_url, $name, $password);
 
-	//@wp_mail($email, __('New WordPress Site'), $message);
+	@wp_mail($email, __('New WordPress Site'), $message);
 }
 endif;
 
